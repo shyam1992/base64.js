@@ -47,8 +47,8 @@ Styles are not maintained in a different CSS file since there is very few styles
 <p>javascript function, a method which is called when the file conversion is success. The DOM object and the base64 string is passed as the parameters to the method.<br/></p>
 </ul>
 <h3>Example</h3>
+
 ```sh
-<script>
 $("#fileBrowser").base64({
  		"customFileBrowser":true,
  		"inputStyle":"",
@@ -66,5 +66,11 @@ $("#fileBrowser").base64({
  		},
  		"onSuccess":function(inst,base64Str){
  		});
-   </script>"
+```
+
+```sh
+<input id="fileBrowser"/>
+<script>
+$("#fileBrowser").base64();
+</script>
 ```
