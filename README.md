@@ -5,7 +5,7 @@ A simple plugin for converting any file to base64 string in browser which is Fil
 Easy to understand,modify and use it in your project.
 
 <b>How to use</b><br/>
-Attach the latest JQuery.js/jQuery.in.js and the plugin.js provided.
+Attach the latest JQuery.js/jQuery.min.js and the plugin.js provided.
 
 It is very easy to implement the file converter, Just create an input tag and call the base64 merhod with it's ID.
 
@@ -13,7 +13,7 @@ It is very easy to implement the file converter, Just create an input tag and ca
 <input id="fileBrowser"/>
 <script>
 $("#fileBrowser").base64();
-</script>"
+</script>
 ```
 
 <b>Options</b><br/>
@@ -66,5 +66,5 @@ $("#fileBrowser").base64({
  		},
  		"onSuccess":function(inst,base64Str){
  		});
-   </script>
+   </script>"
 ```
