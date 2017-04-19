@@ -65,7 +65,9 @@ Styles are not maintained in a different CSS file since there is very few styles
            console.log(errMsg);
  		},
  		"onSuccess":function(inst,base64Str){
- 		});
+           console.log("success");
+ 		}
+        });
 ```
 
 
