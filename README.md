@@ -48,11 +48,12 @@ Styles are not maintained in a different CSS file since there is very few styles
 </ul>
 <h3>Example</h3>
 ```sh
+<script>
 $("#fileBrowser").base64({
  		"customFileBrowser":true,
- 		"inputStyle":"border:1px solid #efefef;height:36px;width:200px;border-radius:10px;",
+ 		"inputStyle":"",
  		"buttonRequired": true,
- 		"buttonStyle":"border:1px solid #c8c8c8;border-radius:10px;background:white;height:36px;width:auto;margin-left:10px;cursor:pointer;",
+ 		"buttonStyle":"",
  		"buttonText":"Choose a file",
  		"acceptableFormats":["text/html"],
  		"minSize":"",//in bytes
@@ -65,4 +66,5 @@ $("#fileBrowser").base64({
  		},
  		"onSuccess":function(inst,base64Str){
  		});
+   </script>
 ```
