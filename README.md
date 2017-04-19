@@ -49,7 +49,7 @@ Styles are not maintained in a different CSS file since there is very few styles
 <h3>Example</h3>
 
 ```sh
-$("#fileBrowser").base64({
+    $("#fileBrowser").base64({
  		"customFileBrowser":true,
  		"inputStyle":"",
  		"buttonRequired": true,
@@ -68,9 +68,4 @@ $("#fileBrowser").base64({
  		});
 ```
 
-```sh
-<input id="fileBrowser"/>
-<script>
-$("#fileBrowser").base64();
-</script>
-```
+
